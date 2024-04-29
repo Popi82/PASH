@@ -1,0 +1,94 @@
+/*Estilos Noticias*/
+.titulo{
+    font-family: "Bangers";
+    font-size: 20px;
+    color: black;
+    align-content: center;
+}
+section div h3{
+    font-weight: 600;
+    color: white;
+    margin-top: 4px;
+}
+section div h4{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.subtitulo{
+    background-color: #adb58d;
+    color: white;
+    height: 55px;
+}
+.container:after{
+    content:"";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.imgnot{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+.container {
+    width: 90%;
+    margin: 0 8%;
+}
+.container div{
+    width: 29%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin:0% 4% 0% 0%;
+    padding:0px;
+}
+span{
+    font-size: small;
+    font-style: italic;
+}
+p{
+    margin: auto;
+    font-size-adjust: initial;
+    margin-top: 10px;
+    text-align: left;
+}
+.vinculo{
+    text-decoration: none;
+}
+.vinculo:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*Estilos páginas anexas*/
+.imgblog{
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+section div h2{
+    color: black;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.cont_b{
+    color: black;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#sub1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.sub_sub{
+    text-align: left;
+    color: black;
+}
+section div .video{
+    margin-left: -150px;
+}

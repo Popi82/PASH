@@ -1,0 +1,196 @@
+/* CSS para sección novedades*/
+.secnovedades{
+    display: flex;
+    margin:20px 20px;
+    align-items: center;
+    padding: 20px 20px;   
+}
+.novedades{
+    margin:0 9%;
+    width: 100%; 
+}
+.novedad{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;   
+}
+.novedad a img{
+    width: 240px;
+    height: 240px;
+    margin: 20px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    box-shadow:0 0 10px darkgrey;
+    border: 3px solid azure;
+}
+.texto-novedad{
+    font-family:"Bangers";
+    font-size: 1.2em;
+    text-align:justify;
+    max-width: 85%;
+    height: auto;
+    justify-content: space-between;
+}
+.secnovedades:hover .novedad{
+    opacity: 0.7;
+    transform: scale(0.7);
+    transition:2s;
+}
+.secnovedades:hover .novedad:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition:2s;
+}
+
+/*CSS para seccion donde estamos */
+.dondeestamos{
+    width: 100%;
+    position: absolute;
+}
+.dondeestamos img{
+    z-index: -1000; 
+    width: 1930px;
+    height: 1000px; 
+    position: relative;
+    display: flex;
+    margin:0px 0px 0px 0px;
+    
+}
+.dondeestamos iframe{
+    max-width: 31em;
+    max-height:31em ;
+    top:350px;
+    margin-left: -160px;
+    position:absolute;
+}
+.dondeestamos h1{
+    color:white;
+    font-size: 74px;
+    font-weight: 4.4em;
+    max-width: 31em;
+    max-height:31em ;
+    top:120px;
+    margin-left: 400px;
+    position:absolute;
+    font-family:"Bangers";
+}
+.dondeestamos h2{
+    color:white;
+    font-size: 34px;
+    font-weight: 4.4em;
+    max-width: 31em;
+    max-height:31em ;
+    top:840px;
+    margin-left: 590px;
+    position:absolute;
+    font-family:"Bangers";
+}
+.secdonde{
+    display: block;
+    margin:0px;
+    padding: 0px;
+    width: auto;
+    display: flex;
+}
+.secdonde article{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    background-color: #a9d302;
+    margin-top: 400px;
+    margin-left: 120px;
+    border-radius: 50%;
+    z-index: 100;
+
+}
+.secdonde article h1{
+   
+    display:block;
+    font-family:"Bangers";
+    font-size: 44px;
+    font-weight: 4.4em;
+    color:white;
+}
+.secdonde article a img{
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+    padding:5px;
+    display:inline-flexbox;
+}
+.dondeestamos{
+    width: 100%;
+    position: absolute;
+}
+.dondeestamos img{
+    z-index: -1000; 
+    width: 1930px;
+    height: 1000px; 
+    position: relative;
+    display: flex;
+    margin:0px 0px 0px 0px;
+    
+}
+.dondeestamos iframe{
+    max-width: 31em;
+    max-height:31em ;
+    top:350px;
+    margin-left: -160px;
+    position:absolute;
+}
+.dondeestamos h1{
+    color:white;
+    font-size: 74px;
+    font-weight: 4.4em;
+    max-width: 31em;
+    max-height:31em ;
+    top:120px;
+    margin-left: 400px;
+    position:absolute;
+    font-family:"Bangers";
+}
+.dondeestamos h2{
+    color:white;
+    font-size: 34px;
+    font-weight: 4.4em;
+    max-width: 31em;
+    max-height:31em ;
+    top:840px;
+    margin-left: 590px;
+    position:absolute;
+    font-family:"Bangers";
+}
+.secdonde{
+    display: block;
+    margin:0px;
+    padding: 0px;
+    width: auto;
+    display: flex;
+}
+.secdonde article{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    background-color: #a9d302;
+    margin-top: 400px;
+    margin-left: 120px;
+    border-radius: 50%;
+    z-index: 100;
+
+}
+.secdonde article h1{
+   
+    display:block;
+    font-family:"Bangers";
+    font-size: 44px;
+    font-weight: 4.4em;
+    color:white;
+}
+.secdonde article a img{
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+    padding:5px;
+    display:inline-flexbox;
+}
